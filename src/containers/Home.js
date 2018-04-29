@@ -23,22 +23,21 @@ class Home extends React.Component {
     }
   }
 
-  // async componentDidMount () {
+  async componentDidMount () {
   //   // const url = `http://eatmeatsfest.azurewebsites.net/API/Get_Detail?Language=TH`
   //   // const data = await axios.get(url)
   //   // console.log(data)
-  //   const {EVENT_INFO, FOOD} = json
-  //   this.setState({
-  //     eventInfo: EVENT_INFO,
-  //     foodList: FOOD,
-  //   })
-  // }
+    const { FOOD } = json
+    this.setState({
+      foodList: FOOD,
+    })
+  }
 
   render () {
-    const {EVENT_INFO, FOOD} = this.props.data;
+    const {eventInfo} = this.props;
     let listFoodCard;
-    if (FOOD.length) {
-      listFoodCard = FOOD.map((food, index) => (
+    if (this.state.foodList.length) {
+      listFoodCard = this.state.foodList.map((food, index) => (
         <CardFood key={index} food={food} />
       ));
     }
@@ -50,7 +49,7 @@ class Home extends React.Component {
         <section className={'section is-gray margin-top'}>
           <div className={'container has-text-centered'}>
             <p className={'title is-3 is-spaced'}>Event Info</p>
-            <p dangerouslySetInnerHTML={{__html: EVENT_INFO}}
+            <p dangerouslySetInnerHTML={{__html: eventInfo}}
                className={'subtitle is-5 line-height'}/>
           </div>
         </section>

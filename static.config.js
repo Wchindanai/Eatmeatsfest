@@ -15,7 +15,7 @@ export default {
         path: '/',
         component: 'src/containers/Home',
         getData: () => ({
-          data
+          eventInfo: data.EVENT_INFO
         }),
       },
       {
