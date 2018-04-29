@@ -33,6 +33,7 @@ const App = () => (
       <div className="">
         <Routes/>
       </div>
+      <div className={'has-text-centered'} style={{ height: '200px', backgroundColor:'gray' }}>FOOD PLAN</div>
     </div>
   </Router>
 )

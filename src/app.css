@@ -9,3 +9,11 @@
 .line-height {
   line-height: 1.7;
 }
+
+.is-gray {
+  background-color: gainsboro;
+}
+
+.margin-top {
+  margin-top: -66px;
+}
