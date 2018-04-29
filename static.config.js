@@ -3,9 +3,10 @@ import React, { Component } from 'react'
 import { ServerStyleSheet } from 'styled-components'
 
 export default {
-  siteRoot: 'www.eatmeatsfest.com',
+  siteRoot: 'https://www.eatmeatsfest.com',
   getSiteData: () => ({
     title: 'Eat Meats Fest',
+    metaDescription: 'Eat Meats Festival'
   }),
   getRoutes: async () => {
     return [
@@ -28,7 +29,7 @@ export default {
   Document: class CustomHtml extends Component {
     render () {
       const {
-        Html, Head, Body, children, renderMeta,
+        Html, Head, Body, children, renderMeta, siteData
       } = this.props
 
       return (
@@ -36,6 +37,11 @@ export default {
         <Head>
           <meta charSet="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <title>{siteData.title}</title>
+          <meta
+            name="description"
+            content={siteData.metaDescription}
+          />
           {renderMeta.styleTags}
         </Head>
         <Body>{children}</Body>
