@@ -1,6 +1,7 @@
 import axios from 'axios'
 import React, { Component } from 'react'
 import { ServerStyleSheet } from 'styled-components'
+import  * as data from './src/mock';
 
 export default {
   siteRoot: 'https://www.eatmeatsfest.com',
@@ -13,6 +14,9 @@ export default {
       {
         path: '/',
         component: 'src/containers/Home',
+        getData: () => ({
+          data
+        }),
       },
       {
         is404: true,

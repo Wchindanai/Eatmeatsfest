@@ -1,5 +1,5 @@
 import React from 'react'
-import { withSiteData } from 'react-static'
+import { withRouteData } from 'react-static'
 import styled from 'styled-components'
 import axios from 'axios'
 
@@ -13,8 +13,9 @@ const KeyArt = styled.div`
 `
 
 class Home extends React.Component {
-  constructor () {
-    super()
+  constructor (props) {
+    super(props);
+    console.log(this.props);
     this.state = {
       isLoading: true,
       eventInfo: '',
@@ -22,22 +23,23 @@ class Home extends React.Component {
     }
   }
 
-  async componentDidMount () {
-    // const url = `http://eatmeatsfest.azurewebsites.net/API/Get_Detail?Language=TH`
-    // const data = await axios.get(url)
-    // console.log(data)
-    const {EVENT_INFO, FOOD} = json
-    this.setState({
-      eventInfo: EVENT_INFO,
-      foodList: FOOD,
-    })
-  }
+  // async componentDidMount () {
+  //   // const url = `http://eatmeatsfest.azurewebsites.net/API/Get_Detail?Language=TH`
+  //   // const data = await axios.get(url)
+  //   // console.log(data)
+  //   const {EVENT_INFO, FOOD} = json
+  //   this.setState({
+  //     eventInfo: EVENT_INFO,
+  //     foodList: FOOD,
+  //   })
+  // }
 
   render () {
+    const {EVENT_INFO, FOOD} = this.props.data;
     let listFoodCard;
-    if (this.state.foodList.length) {
-      listFoodCard = this.state.foodList.map((food) => (
-        <CardFood food={food} />
+    if (FOOD.length) {
+      listFoodCard = FOOD.map((food, index) => (
+        <CardFood key={index} food={food} />
       ));
     }
     return (
@@ -48,7 +50,7 @@ class Home extends React.Component {
         <section className={'section is-gray margin-top'}>
           <div className={'container has-text-centered'}>
             <p className={'title is-3 is-spaced'}>Event Info</p>
-            <p dangerouslySetInnerHTML={{__html: this.state.eventInfo}}
+            <p dangerouslySetInnerHTML={{__html: EVENT_INFO}}
                className={'subtitle is-5 line-height'}/>
           </div>
         </section>
@@ -67,4 +69,4 @@ class Home extends React.Component {
   }
 }
 
-export default Home
+export default withRouteData(Home);
