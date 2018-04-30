@@ -18,6 +18,10 @@
   margin-top: -66px;
 }
 
+.white-color {
+  color: white;
+}
+
 @media only screen and (max-width: 1000px) {
   .nav-center {
     margin-left: 0;

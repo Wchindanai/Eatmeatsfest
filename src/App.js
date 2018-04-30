@@ -35,7 +35,7 @@ class App extends React.Component {
           <Banner className={'image'}/>
           <nav className={'navbar is-black'}>
             <div className="navbar-brand">
-              <a className="navbar-burger" onClick={this.toggleMenu} aria-label="menu" aria-expanded="false">
+              <a className="navbar-burger white-color" onClick={this.toggleMenu} aria-label="menu" aria-expanded="false">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
