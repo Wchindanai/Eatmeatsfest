@@ -2,229 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed8ae363-32eb-43d7-a8eb-a4779ebd7ea4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/404/routeInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/404/routeInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/1/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/10/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/10/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/100/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/100/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/11/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/11/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/12/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/12/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/13/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/13/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/14/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/14/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/15/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/15/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/16/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/16/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/17/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/17/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/18/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/18/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/19/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/19/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/2/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/2/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/20/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/20/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/21/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/21/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/22/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/22/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/23/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/23/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/24/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/24/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/25/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/25/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/26/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/26/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/27/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/27/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/28/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/28/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/29/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/29/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/3/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/3/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/30/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/30/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/31/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/31/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/32/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/32/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/33/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/33/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/34/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/34/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/35/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/35/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/36/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/36/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/37/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/37/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/38/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/38/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/39/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/39/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/4/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/4/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/40/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/40/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/41/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/41/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/42/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/42/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/43/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/43/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/44/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/44/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/45/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/45/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/46/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/46/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/47/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/47/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/48/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/48/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/49/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/49/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/5/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/5/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/50/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/50/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/51/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/51/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/52/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/52/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/53/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/53/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/54/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/54/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/55/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/55/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/56/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/56/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/57/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/57/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/58/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/58/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/59/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/59/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/6/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/6/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/60/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/60/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/61/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/61/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/62/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/62/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/63/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/63/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/64/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/64/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/65/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/65/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/66/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/66/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/67/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/67/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/68/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/68/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/69/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/69/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/7/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/7/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/70/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/70/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/71/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/71/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/72/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/72/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/73/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/73/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/74/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/74/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/75/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/75/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/76/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/76/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/77/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/77/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/78/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/78/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/79/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/79/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/8/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/8/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/80/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/80/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/81/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/81/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/82/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/82/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/83/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/83/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/84/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/84/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/85/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/85/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/86/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/86/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/87/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/87/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/88/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/88/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/89/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/89/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/9/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/9/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/90/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/90/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/91/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/91/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/92/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/92/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/93/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/93/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/94/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/94/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/95/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/95/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/96/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/96/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/97/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/97/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/98/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/98/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/99/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/post/99/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/blog/routeInfo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bootstrap.59ce0fbc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/event/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/event/routeInfo.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.36f8226b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/react-static-routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/react-static-routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routeInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/routeInfo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static.4e052b2a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/static.4e052b2a.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.d400a5e3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/styles.d400a5e3.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/templates/src-containers-404.87f596cb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/templates/src-containers-About.4686f8b4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/templates/src-containers-Blog.2a0e4bb9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/templates/src-containers-Home.625ae440.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/templates/src-containers-Post.3c7f0f11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CardFood.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CardFood.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/static.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -250,14 +35,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Home.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+            <state relative-caret-position="-11">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#151#191#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -293,11 +121,13 @@
         <option value="$PROJECT_DIR$/src/components/EventInfo.jsx" />
         <option value="$PROJECT_DIR$/src/components/CardImage.jsx" />
         <option value="$PROJECT_DIR$/src/mock.json" />
-        <option value="$PROJECT_DIR$/src/app.css" />
-        <option value="$PROJECT_DIR$/src/components/CardFood.jsx" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/static.config.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/components/CardFood.jsx" />
         <option value="$PROJECT_DIR$/src/containers/Home.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/app.css" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -326,6 +156,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,7 +168,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,36 +210,37 @@
       <option name="presentableId" value="Default" />
       <updated>1524993475545</updated>
       <workItem from="1524993478400" duration="2194000" />
-      <workItem from="1525003080622" duration="12708000" />
+      <workItem from="1525003080622" duration="12938000" />
+      <workItem from="1525112867511" duration="2318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14902000" />
+    <option name="totallyTimeSpent" value="17450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32923076" />
-      <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32923076" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,6 +250,40 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Blog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -482,41 +347,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/img/key-art.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CardFood.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="35" column="90" selection-start-line="35" selection-start-column="90" selection-end-line="35" selection-end-column="90" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#151#191#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -534,6 +368,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="59" column="5" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CardFood.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -544,12 +395,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Home.js">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
+        <state relative-caret-position="105">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="43" column="93" selection-start-line="43" selection-start-column="93" selection-end-line="43" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#151#191#0" expanded="true" />
           </folding>
         </state>
       </provider>

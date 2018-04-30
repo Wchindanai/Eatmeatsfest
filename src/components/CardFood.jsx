@@ -1,4 +1,9 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const CardContent = styled.div`
+  height: 120px;
+`;
 
 const CardFood = ({ food }) => (
   <div className="column is-one-third">
@@ -8,18 +13,18 @@ const CardFood = ({ food }) => (
           <img src={ food.IMAGE_PATH } alt=""/>
         </figure>
       </div>
-      <div className="card-content">
+      <CardContent className="card-content">
         <div className="media">
           <div className="media-content">
             <p className="title is-4">
-              ร้าน: { food.NAME }
+              { food.NAME }
             </p>
             <p className="subtitle is-6">
-              ชื่ออาหาร: { food.FOOD_NAME }
+              { food.FOOD_NAME }
             </p>
           </div>
         </div>
-      </div>
+      </CardContent>
     </div>
   </div>
 );

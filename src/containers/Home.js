@@ -10,6 +10,7 @@ const KeyArt = styled.div`
   background-image: url("/img/key-art.jpg");
   background-size: contain;
   background-repeat: no-repeat;
+  width: 100%;
 `
 
 class Home extends React.Component {
@@ -24,9 +25,9 @@ class Home extends React.Component {
   }
 
   async componentDidMount () {
-  //   // const url = `http://eatmeatsfest.azurewebsites.net/API/Get_Detail?Language=TH`
-  //   // const data = await axios.get(url)
-  //   // console.log(data)
+    const url = `http://eatmeatsfest.azurewebsites.net/API/Get_Detail?Language=TH`
+    const data = await axios.get(url)
+    console.log(data)
     const { FOOD } = json
     this.setState({
       foodList: FOOD,
