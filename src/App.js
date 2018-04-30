@@ -43,7 +43,7 @@ class App extends React.Component {
             </div>
             <div className={`navbar-menu nav-center ${this.state.toggleMenu ? 'is-active' : ''}`}>
               <div className={'navbar-start'}>
-                <Link className="navbar-item" to="/">HOME</Link>
+                <Link className="navbar-item" exact to="/">HOME</Link>
                 <Link className="navbar-item" to="/event">EVENT INFO</Link>
                 <Link className="navbar-item" to="/shop_list">SHOP LIST</Link>
                 <Link className="navbar-item" to="/food_list">FOOD LIST</Link>
