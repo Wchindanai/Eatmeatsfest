@@ -25,9 +25,9 @@ class Home extends React.Component {
   }
 
   async componentDidMount () {
-    const url = `http://eatmeatsfest.azurewebsites.net/API/Get_Detail?Language=TH`
-    const data = await axios.get(url)
-    console.log(data)
+    // const url = `http://eatmeatsfest.azurewebsites.net/API/Get_Detail?Language=TH`
+    // const data = await axios.get(url)
+    // console.log(data)
     const { FOOD } = json
     this.setState({
       foodList: FOOD,
@@ -61,7 +61,20 @@ class Home extends React.Component {
                 { listFoodCard }
               </div>
             </div>
-            <div className={'column is-4 is-gray'}></div>
+            <div className={'column is-4'}>
+              <div className="fb-page"
+                   data-href="https://www.facebook.com/EatMeatsFest"
+                   data-tabs="timeline" data-small-header="false"
+                   data-width="500px"
+                   data-height="650px"
+                   data-adapt-container-width="true" data-hide-cover="false"
+                   data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/EatMeatsFest"
+                            className="fb-xfbml-parse-ignore"><a
+                  href="https://www.facebook.com/EatMeatsFest">Facebook</a>
+                </blockquote>
+              </div>
+            </div>
           </div>
         </section>
       </div>
