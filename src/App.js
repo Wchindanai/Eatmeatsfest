@@ -12,6 +12,7 @@ const Banner = styled.div`
   background-image: url("/img/banner.jpg");
   background-repeat: no-repeat;
   height: 100px;
+  width: 100%;
 `
 
 class App extends React.Component {
