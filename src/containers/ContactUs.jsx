@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import styled from 'styled-components'
 
 const ContactSection = styled.section`
-  padding: 200px !important;
   p {
     font-family: 'Cordia New' ;
   }
@@ -24,7 +23,8 @@ const Contact = () => (
             <p className={'title is-4'}>โทร.: 02-318-4388</p>
             <p className={'title is-4'}>Email : <a href={'mailto:info@eatmeatsfes.com'}>info@eatmeatsfes.com</a></p>
             <p className={'title is-4'}>Facebook :
-              https://www.facebook.com/EatMeatsFest/</p>
+              <a href="https://www.facebook.com/EatMeatsFest">https://www.facebook.com/EatMeatsFest</a>
+            </p>
           </div>
         </div>
       </div>
