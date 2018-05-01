@@ -2,37 +2,37 @@
   "EVENT_INFO": "เทศกาลที่เหล่าบรรดานักล่าเนื้อ ใจโคตรเสือไม่ควรพลาด!!! <br>\nยกขบวนกว่า 30 ร้านเนื้อต้นตำรับญี่ปุ่นแท้ๆ ไม่ว่าจะร้านเด็ด ร้านดัง ร้านลับ ร้านในตำนาน มาทำให้คุณได้สัมผัสถึง \"ความฟิน\"  ในรสชาติของ  “เนื้อ” อันโอชะที่แผ่ซ่านเต็มปากเต็มคำ อย่างที่คุณไม่เคยรู้สึกมาก่อน! <br>\n8 – 10 มิถุนายน 2561 ณ ชั้น G ลาน MBK Center <br>",
   "FOOD": [
     {
-      "NAME": "Gempukan",
-      "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/Gempukan/Food/1.jpg",
+      "SHOP_KEY": "GEMPUKAN",
       "SHOP_NAME": "Gempukan",
+      "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/Gempukan/Food/1.jpg",
       "FOOD_NAME": "ข้าวเนื้อย่าง ซอสสูตรลับ 60ปี",
       "LINK": "test"
     },
     {
-      "NAME": "PassionOrenge",
+      "SHOP_KEY": "PASSIONORENGE",
+      "SHOP_NAME": "Passion Orenge",
       "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/PassionOrenge/Food/1.jpg",
-      "SHOP_NAME": "PassionOrenge",
       "FOOD_NAME": "ข้าวหน้าเนื้อโรสท์บีฟ",
       "LINK": "test"
     },
     {
-      "NAME": "THEBUTCHERbyGINZADO",
-      "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/THEBUTCHERbyGINZADO/Food/1.jpg",
+      "SHOP_KEY": "THEBUTCHERBYGINZADO",
       "SHOP_NAME": "THE BUTCHER by GINZADO",
+      "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/THEBUTCHERbyGINZADO/Food/1.jpg",
       "FOOD_NAME": "สเต๊กเนื้อลูกเต๋า",
       "LINK": "test"
     },
     {
-      "NAME": "KIRABI",
-      "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/KIRABI/Food/1.jpg",
+      "SHOP_KEY": "KIRABI",
       "SHOP_NAME": "KIRABI",
+      "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/KIRABI/Food/1.jpg",
       "FOOD_NAME": "ซูชิวากิว",
       "LINK": "test"
     },
     {
-      "NAME": "SHOUTAIAN",
-      "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/SHOUTAIAN/Food/1.jpg",
+      "SHOP_KEY": "SHOUTAIAN",
       "SHOP_NAME": "SHOUTAIAN",
+      "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/SHOUTAIAN/Food/1.jpg",
       "FOOD_NAME": "แฮมเบิร์กนุ่มละลายลิ้น",
       "LINK": "test"
     }
