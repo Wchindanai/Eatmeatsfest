@@ -46,8 +46,8 @@ class App extends React.Component {
                 <Link className="navbar-item" exact to="/">HOME</Link>
                 <Link className="navbar-item" to="/event">EVENT INFO</Link>
                 <Link className="navbar-item" to="/shop_list">SHOP LIST</Link>
-                <Link className="navbar-item" to="/food_list">FOOD LIST</Link>
-                <Link className="navbar-item" to="/floor_plan">FLOOR PLAN</Link>
+                {/*<Link className="navbar-item" to="/food_list">FOOD LIST</Link>*/}
+                {/*<Link className="navbar-item" to="/floor_plan">FLOOR PLAN</Link>*/}
                 <Link className="navbar-item" to="/contact">CONTACT US</Link>
               </div>
             </div>

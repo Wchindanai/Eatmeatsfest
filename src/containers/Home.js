@@ -5,6 +5,7 @@ import axios from 'axios'
 
 import * as json from '../mock'
 import CardFood from '../components/CardFood'
+import FacebookProvider, { Page } from 'react-facebook'
 
 const KeyArt = styled.div`
   background-image: url("/img/key-art.jpg");
@@ -24,14 +25,7 @@ class Home extends React.Component {
   }
 
   async componentDidMount () {
-    (function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=122099135013153&autoLogAppEvents=1';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));
-    // const url = `http://eatmeatsfest.azurewebsites.net/API/Get_Detail?Language=TH`
+    // const url = `https://eatmeatsfest.azurewebsites.net/API/Get_Detail?Language=TH`
     // const data = await axios.get(url)
     // console.log(data)
     const { FOOD } = json
@@ -68,18 +62,9 @@ class Home extends React.Component {
               </div>
             </div>
             <div className={'column is-4'}>
-              <div className="fb-page"
-                   data-href="https://www.facebook.com/EatMeatsFest"
-                   data-tabs="timeline" data-small-header="false"
-                   data-width="500px"
-                   data-height="650px"
-                   data-adapt-container-width="true" data-hide-cover="false"
-                   data-show-facepile="true">
-                <blockquote cite="https://www.facebook.com/EatMeatsFest"
-                            className="fb-xfbml-parse-ignore"><a
-                  href="https://www.facebook.com/EatMeatsFest">Facebook</a>
-                </blockquote>
-              </div>
+              <FacebookProvider appId="122099135013153">
+                <Page href="https://www.facebook.com/EatMeatsFest" tabs="timeline" height={'850px'} width={'500px'} />
+              </FacebookProvider>
             </div>
           </div>
         </section>
