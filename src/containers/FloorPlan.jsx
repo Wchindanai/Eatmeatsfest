@@ -5,7 +5,7 @@ import ComingSoon from '../components/ComingSoon'
 const ShopList = () => (
   <Fragment>
     <Carousel />
-
+    <ComingSoon />
   </Fragment>
 )
 
