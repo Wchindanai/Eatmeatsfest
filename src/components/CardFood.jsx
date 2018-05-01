@@ -1,12 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-static';
 
 const CardContent = styled.div`
   height: 120px;
 `;
 
 const CardFood = ({ food }) => (
-  <div className="column is-one-third">
+  <Link to={''} className="column is-one-third">
     <div className={'card'}>
       <div className="card-image">
         <figure className={'image is-4by3'}>
@@ -26,7 +27,7 @@ const CardFood = ({ food }) => (
         </div>
       </CardContent>
     </div>
-  </div>
+  </Link>
 );
 
 export default CardFood;

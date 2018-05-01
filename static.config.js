@@ -19,6 +19,26 @@ export default {
         }),
       },
       {
+        path: '/event',
+        component: 'src/containers/EventInfo',
+      },
+      {
+        path: '/shop_list',
+        component: 'src/containers/ShopList',
+      },
+      {
+        path: '/food_list',
+        component: 'src/containers/FoodList'
+      },
+      {
+        path: '/floor_plan',
+        component: 'src/containers/FloorPlan'
+      },
+      {
+        path: '/contact',
+        component: 'src/containers/ContactUs'
+      },
+      {
         is404: true,
         component: 'src/containers/404',
       },
