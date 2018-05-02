@@ -7,7 +7,7 @@ const CardContent = styled.div`
 `;
 
 const CardFood = ({ food }) => (
-  <Link to={''} className="column is-half">
+  <Link to={`/shop_list?shop=${food.SHOP_KEY}`} className="column is-half">
     <div className={'card'}>
       <div className="card-image">
         <figure className={'image is-4by3'}>

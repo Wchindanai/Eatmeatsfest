@@ -20,9 +20,9 @@ const Contact = () => (
       <div className="container">
         <div className={'columns is-vcentered'}>
           <div className={'column'}>
-            <p className={'title is-4'}>โทร.: 02-318-4388</p>
+            <p className={'title is-4'}>โทร : 02-318-4388</p>
             <p className={'title is-4'}>Email : <a href={'mailto:info@eatmeatsfes.com'}>info@eatmeatsfes.com</a></p>
-            <p className={'title is-4'}>Facebook : <a href="https://www.facebook.com/EatMeatsFest">https://www.facebook.com/EatMeatsFest</a>
+            <p className={'title is-4'}>Facebook : <a href="https://www.facebook.com/EatMeatsFest">@EatMeatsFest</a>
             </p>
           </div>
         </div>

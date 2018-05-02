@@ -10,12 +10,14 @@ export default {
     metaDescription: 'Eat Meats Festival'
   }),
   getRoutes: async () => {
+    const url = `http://api.eatmeatsfest.com/api/API?Language=TH`
+    const data = await axios.get(url)
     return [
       {
         path: '/',
         component: 'src/containers/Home',
         getData: () => ({
-          eventInfo: data.EVENT_INFO
+          eventInfo: data.data.EVENT_INFO
         }),
       },
       {
