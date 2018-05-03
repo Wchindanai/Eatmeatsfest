@@ -25,7 +25,7 @@ class Home extends React.Component {
   }
 
   async componentDidMount () {
-    const url = `http://api.eatmeatsfest.com/api/API?Language=TH`
+    const url = `http://35.198.199.56/Hel/api/API?Language=TH`
     const data = await axios.get(url)
     const { FOOD } = data.data;
     this.setState({
