@@ -4,37 +4,93 @@
     {
       "SHOP_KEY": "GEMPUKAN",
       "SHOP_NAME": "Gempukan",
-      "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/Gempukan/Food/1.jpg",
-      "FOOD_NAME": "ข้าวเนื้อย่าง ซอสสูตรลับ 60ปี",
-      "LINK": "test"
-    },
-    {
-      "SHOP_KEY": "PASSIONORENGE",
-      "SHOP_NAME": "Passion Orenge",
-      "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/PassionOrenge/Food/1.jpg",
-      "FOOD_NAME": "ข้าวหน้าเนื้อโรสท์บีฟ",
-      "LINK": "test"
-    },
-    {
-      "SHOP_KEY": "THEBUTCHERBYGINZADO",
-      "SHOP_NAME": "THE BUTCHER by GINZADO",
-      "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/THEBUTCHERbyGINZADO/Food/1.jpg",
-      "FOOD_NAME": "สเต๊กเนื้อลูกเต๋า",
-      "LINK": "test"
+      "FOOD_NAME": "ข้าวเนื้อย่าง ซอสสูตรลับ 60 ปี",
+      "IMAGE_PATH": "http://api.eatmeatsfest.com/Dataset/Shop/GEMPUKAN/Food/1.jpg",
+      "SHOP_LINK": "test"
     },
     {
       "SHOP_KEY": "KIRABI",
       "SHOP_NAME": "KIRABI",
-      "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/KIRABI/Food/1.jpg",
       "FOOD_NAME": "ซูชิวากิว",
-      "LINK": "test"
+      "IMAGE_PATH": "http://api.eatmeatsfest.com/Dataset/Shop/KIRABI/Food/1.jpg",
+      "SHOP_LINK": "test"
+    },
+    {
+      "SHOP_KEY": "PASSIONORENGE",
+      "SHOP_NAME": "Passion Orenge",
+      "FOOD_NAME": "ข้าวหน้าเนื้อโรสท์บีฟ",
+      "IMAGE_PATH": "http://api.eatmeatsfest.com/Dataset/Shop/PASSIONORENGE/Food/1.jpg",
+      "SHOP_LINK": "test"
     },
     {
       "SHOP_KEY": "SHOUTAIAN",
       "SHOP_NAME": "SHOUTAIAN",
-      "IMAGE_PATH": "https://eatmeatsfest.azurewebsites.net/Dataset/Shop/SHOUTAIAN/Food/1.jpg",
       "FOOD_NAME": "แฮมเบิร์กนุ่มละลายลิ้น",
-      "LINK": "test"
+      "IMAGE_PATH": "http://api.eatmeatsfest.com/Dataset/Shop/SHOUTAIAN/Food/1.jpg",
+      "SHOP_LINK": "test"
+    },
+    {
+      "SHOP_KEY": "THEBUTCHERBYGINZADO",
+      "SHOP_NAME": "THE BUTCHER by GINZADO",
+      "FOOD_NAME": "สเต๊กเนื้อลูกเต๋า",
+      "IMAGE_PATH": "http://api.eatmeatsfest.com/Dataset/Shop/THEBUTCHERBYGINZADO/Food/1.jpg",
+      "SHOP_LINK": "test"
+    },
+    {
+      "SHOP_KEY": "RANICHI",
+      "SHOP_NAME": "RANICHI",
+      "FOOD_NAME": "ลิ้นวัวย่างเกลือ",
+      "IMAGE_PATH": "http://api.eatmeatsfest.com/Dataset/Shop/RANICHI/Food/1.jpg",
+      "SHOP_LINK": "test"
+    },
+    {
+      "SHOP_KEY": "GOLDCURRY",
+      "SHOP_NAME": "Gold Curry",
+      "FOOD_NAME": "ข้าวราดแกงกะหรี่หมูโกลด์คัตสึ",
+      "IMAGE_PATH": "http://api.eatmeatsfest.com/Dataset/Shop/GOLDCURRY/Food/1.jpg",
+      "SHOP_LINK": "test"
+    },
+    {
+      "SHOP_KEY": "KATANA",
+      "SHOP_NAME": "KATANA",
+      "FOOD_NAME": "ข้าวปั้นห่อหมูย่าง",
+      "IMAGE_PATH": "http://api.eatmeatsfest.com/Dataset/Shop/KATANA/Food/1.jpg",
+      "SHOP_LINK": "test"
+    },
+    {
+      "SHOP_KEY": "BEPPINYA",
+      "SHOP_NAME": "BEPPIN YA",
+      "FOOD_NAME": "ขนมจีบเต้าหู้",
+      "IMAGE_PATH": "http://api.eatmeatsfest.com/Dataset/Shop/BEPPINYA/Food/1.jpg",
+      "SHOP_LINK": "test"
+    },
+    {
+      "SHOP_KEY": "NAGIYA",
+      "SHOP_NAME": "NAGIYA",
+      "FOOD_NAME": "หมู-ย่าง-หยิบ",
+      "IMAGE_PATH": "http://api.eatmeatsfest.com/Dataset/Shop/NAGIYA/Food/1.jpg",
+      "SHOP_LINK": "test"
+    },
+    {
+      "SHOP_KEY": "MUSASHIYA",
+      "SHOP_NAME": "MUSASHIYA",
+      "FOOD_NAME": "ราเมงซุปไก่คอลลาเจน",
+      "IMAGE_PATH": "http://api.eatmeatsfest.com/Dataset/Shop/MUSASHIYA/Food/1.jpg",
+      "SHOP_LINK": "test"
+    },
+    {
+      "SHOP_KEY": "SAGAMI",
+      "SHOP_NAME": "SAGAMI",
+      "FOOD_NAME": "ปีกไก่ทอดสไตล์นาโกย่า",
+      "IMAGE_PATH": "http://api.eatmeatsfest.com/Dataset/Shop/SAGAMI/Food/1.jpg",
+      "SHOP_LINK": "test"
+    },
+    {
+      "SHOP_KEY": "HINAYA",
+      "SHOP_NAME": "HINAYA",
+      "FOOD_NAME": "ข้าวเนื้อย่าง ซอสสูตรลับ 60 ปีเกี๊ยวซ่าราดนิคุมิโซะ",
+      "IMAGE_PATH": "http://api.eatmeatsfest.com/Dataset/Shop/HINAYA/Food/1.jpg",
+      "SHOP_LINK": "test"
     }
   ]
 }
