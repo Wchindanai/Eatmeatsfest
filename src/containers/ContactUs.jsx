@@ -5,26 +5,34 @@ const ContactSection = styled.section`
   p {
     font-family: 'Cordia New' ;
   }
-  background-color: gainsboro;
+  background-image: url("/img/contact-us.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
 `
 
-const Background = styled.div`
-  height: 500px;
-  background-image: url("/img/key-art.jpg");
-  background-repeat: no-repeat;
-  opacity: 0.2;
+const ContactUsDetail = styled.div`
+  margin-top: 150px; 
+  p {
+    color: white;
+  }
+  a {
+    color: white;
+    text-decoration: underline;
+  
+  }
 `
 const Contact = () => (
   <Fragment>
     <ContactSection className={'section'}>
       <div className="container">
-        <div className={'columns is-vcentered'}>
-          <div className={'column'}>
-            <p className={'title is-4'}>โทร : 02-318-4388</p>
-            <p className={'title is-4'}>Email : <a href={'mailto:info@eatmeatsfes.com'}>info@eatmeatsfes.com</a></p>
-            <p className={'title is-4'}>Facebook : <a href="https://www.facebook.com/EatMeatsFest">@EatMeatsFest</a>
+        <div className={'columns'}>
+          <ContactUsDetail className={'column has-text-centered'}>
+            <p className={'title is-3 is-white'}>โทร : 02-318-4388</p>
+            <p className={'title is-3'}>Email : <a href={'mailto:info@eatmeatsfes.com'}>info@eatmeatsfes.com</a></p>
+            <p className={'title is-3'}>Facebook : <a href="https://www.facebook.com/EatMeatsFest">@EatMeatsFest</a>
             </p>
-          </div>
+          </ContactUsDetail>
         </div>
       </div>
     </ContactSection>

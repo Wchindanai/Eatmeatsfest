@@ -24,8 +24,7 @@ class ShopList extends React.Component {
   render () {
     return(
       <Fragment>
-        <Carousel/>
-        <ShopDetail shopDetail={this.state.shopDetail} />
+        {this.state.shopDetail && <ShopDetail shopDetail={this.state.shopDetail} /> }
       </Fragment>
     )
   }

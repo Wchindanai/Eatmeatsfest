@@ -7,12 +7,14 @@ import Routes from 'react-static-routes'
 
 import 'bulma/css/bulma.css'
 import './app.css'
+import ComingSoon from './components/ComingSoon'
 
 const Banner = styled.div`
-  background-image: url("/img/banner.jpg");
+  background-image: url("/img/banner-1.jpg");
   background-repeat: no-repeat;
   height: 100px;
   width: 100%;
+  background-size: cover;
 `
 
 class App extends React.Component {
@@ -56,7 +58,13 @@ class App extends React.Component {
           <div className="">
             <Routes/>
           </div>
-          <div className={'has-text-centered'} style={{ height: '200px', backgroundColor:'gray' }}>FOOD PLAN</div>
+          <section className={'section'} style={{ backgroundColor:'gray' }}>
+            <div className={'has-text-centered'}>
+              <div className="container">
+                <p className={'title'} style={{ color: 'white'}}>Coming Soon</p>
+              </div>
+            </div>
+          </section>
         </div>
       </Router>
     );
