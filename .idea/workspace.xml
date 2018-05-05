@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed8ae363-32eb-43d7-a8eb-a4779ebd7ea4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/ContactUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ContactUs.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/EventInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/EventInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/ShopList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ShopList.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +19,8 @@
       <file leaf-file-name="ContactUs.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/containers/ContactUs.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
+            <state relative-caret-position="403">
+              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -195,12 +192,12 @@
       <workItem from="1525285121731" duration="4867000" />
       <workItem from="1525334514581" duration="41000" />
       <workItem from="1525335142667" duration="4604000" />
-      <workItem from="1525497562246" duration="385000" />
+      <workItem from="1525497562246" duration="545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38024000" />
+    <option name="totallyTimeSpent" value="38184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -642,8 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/ContactUs.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="31" column="82" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
+        <state relative-caret-position="403">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
         </state>
       </provider>
     </entry>
