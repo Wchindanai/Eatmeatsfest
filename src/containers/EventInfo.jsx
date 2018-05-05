@@ -4,7 +4,6 @@ import ComingSoon from '../components/ComingSoon'
 
 const EventInfo = () => (
   <Fragment>
-    <Carousel />
     <ComingSoon />
   </Fragment>
 )

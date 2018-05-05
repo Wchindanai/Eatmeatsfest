@@ -29,7 +29,7 @@ const Contact = () => (
         <div className={'columns'}>
           <ContactUsDetail className={'column has-text-centered'}>
             <p className={'title is-3 is-white'}>โทร : 02-318-4388</p>
-            <p className={'title is-3'}>Email : <a href={'mailto:info@eatmeatsfes.com'}>info@eatmeatsfes.com</a></p>
+            <p className={'title is-3'}>Email : <a href={'mailto:info@eatmeatsfest.com'}>info@eatmeatsfest.com</a></p>
             <p className={'title is-3'}>Facebook : <a href="https://www.facebook.com/EatMeatsFest">@EatMeatsFest</a>
             </p>
           </ContactUsDetail>
