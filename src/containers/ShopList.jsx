@@ -13,7 +13,7 @@ class ShopList extends React.Component {
   async componentDidMount() {
     const { search } = this.props.location;
     const shopName = search.split('=')[1];
-    const url = `http://api.eatmeatsfest.com/api/API?ShopName=${shopName}&Language=TH`;
+    const url = `https://api.eatmeatsfest.com/api/API?ShopName=${shopName}&Language=TH`;
     const res = await axios.get(url);
     this.setState({
       shopDetail: res.data,
