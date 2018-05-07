@@ -7,6 +7,7 @@ const Description = styled.p`
 const ShopDetail = ({ shopDetail }) => (
   <section className={'section'}>
     <div className="container">
+      <p className={'title is-2 has-text-centered'}> {shopDetail.SHOP_NAME} </p><br/>
       <div className={'columns'}>
         <div className={'column is-4'}>
           <figure className="image is-256x256">
@@ -14,14 +15,18 @@ const ShopDetail = ({ shopDetail }) => (
           </figure>
         </div>
         <div className={'column'}>
-          <Description className={'subtitle is-3' } dangerouslySetInnerHTML={{ __html: shopDetail.SHOP_DESCRIPTION }}/>
+          <Description className={'subtitle is-4' } dangerouslySetInnerHTML={{ __html: shopDetail.SHOP_DESCRIPTION }}/>
           <br />
           {
-            shopDetail.SHOP_IMAGE.map((img) => (
-              <Image className={'image is-256'}>
-                <img src={img.IMAGE_PATH} />
-              </Image>
-            ))
+            shopDetail.SHOP_IMAGE.map((img, index) => {
+              if (index < 3) {
+                return (
+                  <Image className={'image is-256'}>
+                    <img src={img.IMAGE_PATH} />
+                  </Image>
+                )
+              }
+            })
           }
         </div>
       </div>

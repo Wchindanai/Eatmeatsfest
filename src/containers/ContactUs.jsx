@@ -19,8 +19,9 @@ const ContactUsDetail = styled.div`
   a {
     color: white;
     text-decoration: underline;
-  
   }
+  background-color: black;
+  padding: 10%;
 `
 const Contact = () => (
   <Fragment>

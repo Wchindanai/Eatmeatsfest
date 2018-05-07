@@ -4,7 +4,7 @@ import { ServerStyleSheet } from 'styled-components'
 import  * as data from './src/mock';
 
 export default {
-  siteRoot: 'https://www.eatmeatsfest.com',
+  siteRoot: 'http://www.eatmeatsfest.com',
   getSiteData: () => ({
     title: 'Eat Meats Fest',
     metaDescription: 'Eat Meats Festival'
