@@ -8,7 +8,7 @@ import CardFood from '../components/CardFood'
 import FacebookProvider, { Page } from 'react-facebook'
 
 const KeyArt = styled.div`
-  background-image: url("/img/key-art.jpg");
+  background-image: url("/img/key-art2.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
