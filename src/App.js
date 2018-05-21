@@ -5,6 +5,7 @@ import styled from 'styled-components'
 //
 import Routes from 'react-static-routes'
 
+import 'flag-icon-css/css/flag-icon.css';
 import 'bulma/css/bulma.css'
 import './app.css'
 import ComingSoon from './components/ComingSoon'
@@ -20,7 +21,12 @@ const Banner = styled.div`
 class App extends React.Component {
   constructor (props) {
     super(props)
+    let lang = localStorage.getItem('language');
+    if (!lang) {
+      lang = "TH";
+    }
     this.state = {
+      language: lang,
       toggleMenu: false,
     }
   }
@@ -31,11 +37,34 @@ class App extends React.Component {
     }))
   }
 
+  changeLanguage(lang){
+    localStorage.setItem('language', lang);
+    this.setState({
+      language: lang,
+    });
+    location.reload();
+  }
+
   render () {
     return (
       <Router>
         <div>
-          <Banner className={'image'}/>
+          <Banner className={'image'}>
+            <div className="buttons has-addons is-right" style={{paddingTop: '15px'}}>
+              <div className={`button ${this.state.language === 'TH' ? 'is-danger is-selected' : ''}`} onClick={() => this.changeLanguage("TH")}>
+                <i className={'flag-icon flag-icon-th'}/>
+                <span>&nbsp; TH</span>
+              </div>
+              <div className={`button ${this.state.language === 'JP' ? 'is-danger is-selected' : ''}`} onClick={() => this.changeLanguage("JP")}>
+                <i className={'flag-icon flag-icon-jp'}/>
+                <span>&nbsp; JP</span>
+              </div>
+              <div className={`button ${this.state.language === 'EN' ? 'is-danger is-selected' : ''}`} onClick={() => this.changeLanguage("EN")}>
+                <i className={'flag-icon flag-icon-us'}/>
+                <span>&nbsp; EN</span>
+              </div>
+            </div>
+          </Banner>
           <nav className={'navbar is-black'}>
             <div className="navbar-brand">
               <a className="navbar-burger white-color" onClick={this.toggleMenu} aria-label="menu" aria-expanded="false">
@@ -48,7 +77,7 @@ class App extends React.Component {
               <div className={'navbar-start'}>
                 <Link className="navbar-item" exact to="/">HOME</Link>
                 <Link className="navbar-item" to="/event">EVENT INFO</Link>
-                <Link className="navbar-item" to="/shop_list">SHOP LIST</Link>
+                <Link className="navbar-item" onClick={() => location.reload()} to="/shop_list">SHOP LIST</Link>
                 {/*<Link className="navbar-item" to="/food_list">FOOD LIST</Link>*/}
                 {/*<Link className="navbar-item" to="/floor_plan">FLOOR PLAN</Link>*/}
                 <Link className="navbar-item" to="/contact">CONTACT US</Link>

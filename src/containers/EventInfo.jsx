@@ -1,11 +1,43 @@
 import React, { Fragment } from 'react';
-import Carousel from '../components/Carousel'
+import { withRouteData } from 'react-static';
 import ComingSoon from '../components/ComingSoon'
+import { KeyArt } from './Home'
+import  axios from 'axios'
 
-const EventInfo = () => (
-  <Fragment>
-    <ComingSoon />
-  </Fragment>
-)
+class EventInfo extends React.Component {
+
+  constructor () {
+    super();
+    this.state = {
+      eventInfo: ''
+    };
+  }
+
+  async componentDidMount() {
+    const lang = localStorage.getItem('language');
+    const url = `http://api.eatmeatsfest.com/api/API?Language=${lang}`;
+    const res = await axios(url);
+    this.setState({
+      eventInfo: res.data.EVENT_INFO,
+    })
+  }
+
+  render() {
+    return (
+      <Fragment>
+        <section>
+          <KeyArt className={'image is-16by9'}/>
+        </section>
+        <section className={'section is-gray margin-top'}>
+          <div className={'container has-text-centered'}>
+            <p className={'title is-3 is-spaced'}>Event Info</p>
+            <p dangerouslySetInnerHTML={{__html: this.state.eventInfo}}
+               className={'subtitle is-5 line-height'}/>
+          </div>
+        </section>
+      </Fragment>
+    );
+  }
+}
 
 export default EventInfo;

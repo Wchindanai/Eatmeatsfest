@@ -23,6 +23,9 @@ export default {
       {
         path: '/event',
         component: 'src/containers/EventInfo',
+        getData: () => ({
+          eventInfo: data.data.EVENT_INFO
+        }),
       },
       {
         path: '/shop_list',

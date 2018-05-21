@@ -7,7 +7,7 @@ import * as json from '../mock'
 import CardFood from '../components/CardFood'
 import FacebookProvider, { Page } from 'react-facebook'
 
-const KeyArt = styled.div`
+export const KeyArt = styled.div`
   background-image: url("/img/key-art2.jpg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -25,16 +25,21 @@ class Home extends React.Component {
   }
 
   async componentDidMount () {
-    const url = `https://api.eatmeatsfest.com/api/API?Language=TH`
+    let lang = localStorage.getItem('language');
+    if (!lang) {
+      lang = "TH";
+    }
+    const url = `https://api.eatmeatsfest.com/api/API?Language=${lang}`
     const data = await axios.get(url)
-    const { FOOD } = data.data;
+    const { FOOD, EVENT_INFO } = data.data;
     this.setState({
       foodList: FOOD,
+      eventInfo: EVENT_INFO
     })
   }
 
   render () {
-    const {eventInfo} = this.props;
+    const {eventInfo} = this.state;
     let listFoodCard;
     if (this.state.foodList.length) {
       listFoodCard = this.state.foodList.map((food, index) => (
