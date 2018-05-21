@@ -25,7 +25,7 @@ class Home extends React.Component {
   }
 
   async componentDidMount () {
-    let lang = localStorage.getItem('language');
+    let lang = window.localStorage.getItem('language');
     if (!lang) {
       lang = "TH";
     }
