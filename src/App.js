@@ -29,7 +29,11 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    const lang = localStorage.getItem('language');
+    let lang = localStorage.getItem('language');
+    if (lang) {
+      lang = "TH";
+    }
+    window.localStorage.setItem('language', lang);
     this.setState({ language: lang });
   }
 

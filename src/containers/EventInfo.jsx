@@ -14,7 +14,10 @@ class EventInfo extends React.Component {
   }
 
   async componentDidMount() {
-    const lang = localStorage.getItem('language');
+    let lang = localStorage.getItem('language');
+    if (!lang) {
+      lang = "TH";
+    }
     const url = `http://api.eatmeatsfest.com/api/API?Language=${lang}`;
     const res = await axios(url);
     this.setState({
