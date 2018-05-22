@@ -30,7 +30,7 @@ class App extends React.Component {
 
   componentDidMount() {
     let lang = localStorage.getItem('language');
-    if (lang) {
+    if (!lang) {
       lang = "TH";
     }
     window.localStorage.setItem('language', lang);
