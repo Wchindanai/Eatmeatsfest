@@ -18,7 +18,7 @@ class EventInfo extends React.Component {
     if (!lang) {
       lang = "TH";
     }
-    const url = `http://api.eatmeatsfest.com/api/API?Language=${lang}`;
+    const url = `https://api.eatmeatsfest.com/api/API?Language=${lang}`;
     const res = await axios(url);
     this.setState({
       eventInfo: res.data.EVENT_INFO,
