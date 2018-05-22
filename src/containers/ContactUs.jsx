@@ -18,22 +18,16 @@ const ContactUsDetail = styled.div`
     text-decoration: underline;
   }
 `
+
+export const KeyArt = styled.div`
+  background-image: url("/img/contact-us2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+`
 const Contact = () => (
   <Fragment>
-    <ContactSection className={'section contact-banner'}>
-      <div className="container">
-        <div className={'columns'}>
-          <ContactUsDetail className={'column has-text-centered'}>
-            <div>
-              <p className={'title is-3 is-white'}>โทร : 02-318-4388</p>
-              <p className={'title is-3'}>E-mail : <a href={'mailto:info@eatmeatsfest.com'}>info@eatmeatsfest.com</a></p>
-              <p className={'title is-3'}>Facebook : <a href="https://www.facebook.com/EatMeatsFest">@EatMeatsFest</a>
-              </p>
-            </div>
-          </ContactUsDetail>
-        </div>
-      </div>
-    </ContactSection>
+    <KeyArt className={'image is-16by9'} />
   </Fragment>
 )
 

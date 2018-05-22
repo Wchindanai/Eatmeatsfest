@@ -2,8 +2,6 @@ import React from 'react'
 import { withRouteData } from 'react-static'
 import styled from 'styled-components'
 import axios from 'axios'
-
-import * as json from '../mock'
 import CardFood from '../components/CardFood'
 import FacebookProvider, { Page } from 'react-facebook'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Router, Link } from 'react-static'
+import { Router, Link, Head } from 'react-static'
 import { hot } from 'react-hot-loader'
 import styled from 'styled-components'
 //
@@ -8,6 +8,7 @@ import Routes from 'react-static-routes'
 import 'flag-icon-css/css/flag-icon.css';
 import 'bulma/css/bulma.css'
 import './app.css'
+
 import ComingSoon from './components/ComingSoon'
 
 const Banner = styled.div`
@@ -21,14 +22,15 @@ const Banner = styled.div`
 class App extends React.Component {
   constructor (props) {
     super(props)
-    let lang = localStorage.getItem('language');
-    if (!lang) {
-      lang = "TH";
-    }
     this.state = {
-      language: lang,
+      language: "TH",
       toggleMenu: false,
     }
+  }
+
+  componentDidMount() {
+    const lang = localStorage.getItem('language');
+    this.setState({ language: lang });
   }
 
   toggleMenu = () => {
@@ -38,11 +40,11 @@ class App extends React.Component {
   }
 
   changeLanguage(lang){
-    localStorage.setItem('language', lang);
     this.setState({
       language: lang,
     });
-    location.reload();
+    window.localStorage.setItem('language', lang);
+    window.location.reload();
   }
 
   render () {
@@ -94,6 +96,9 @@ class App extends React.Component {
               </div>
             </div>
           </section>
+        </div>
+        <div>
+          <input type="hidden" id={'language'} value={this.state.language}/>
         </div>
       </Router>
     );
