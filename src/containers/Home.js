@@ -70,6 +70,13 @@ class Home extends React.Component {
             </div>
           </div>
         </section>
+        <section className={'section'} style={{ backgroundColor:'gray' }}>
+          <div className={'has-text-centered'}>
+            <div className="container">
+              <p className={'title'} style={{ color: 'white'}}>Coming Soon</p>
+            </div>
+          </div>
+        </section>
       </div>
     )
   }

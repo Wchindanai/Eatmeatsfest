@@ -83,7 +83,7 @@ class App extends React.Component {
               <div className={'navbar-start'}>
                 <Link className="navbar-item" exact to="/">HOME</Link>
                 <Link className="navbar-item" to="/event">EVENT INFO</Link>
-                <Link className="navbar-item" onClick={() => location.reload()} to="/shop_list">SHOP LIST</Link>
+                <Link className="navbar-item" onClick={() => window.location.reload()} to="/shop_list">SHOP LIST</Link>
                 {/*<Link className="navbar-item" to="/food_list">FOOD LIST</Link>*/}
                 {/*<Link className="navbar-item" to="/floor_plan">FLOOR PLAN</Link>*/}
                 <Link className="navbar-item" to="/contact">CONTACT US</Link>
@@ -93,16 +93,6 @@ class App extends React.Component {
           <div className="">
             <Routes/>
           </div>
-          <section className={'section'} style={{ backgroundColor:'gray' }}>
-            <div className={'has-text-centered'}>
-              <div className="container">
-                <p className={'title'} style={{ color: 'white'}}>Coming Soon</p>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div>
-          <input type="hidden" id={'language'} value={this.state.language}/>
         </div>
       </Router>
     );

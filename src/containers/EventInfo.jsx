@@ -38,6 +38,13 @@ class EventInfo extends React.Component {
                className={'subtitle is-5 line-height'}/>
           </div>
         </section>
+        <section className={'section'} style={{ backgroundColor:'gray' }}>
+          <div className={'has-text-centered'}>
+            <div className="container">
+              <p className={'title'} style={{ color: 'white'}}>Coming Soon</p>
+            </div>
+          </div>
+        </section>
       </Fragment>
     );
   }
