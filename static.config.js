@@ -32,6 +32,10 @@ export default {
         component: 'src/containers/ShopList',
       },
       {
+        path: '/shop_detail',
+        component: 'src/containers/ShopDetail',
+      },
+      {
         path: '/food_list',
         component: 'src/containers/FoodList'
       },

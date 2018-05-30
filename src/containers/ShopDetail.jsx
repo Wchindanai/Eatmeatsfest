@@ -20,27 +20,19 @@ class ShopList extends React.Component {
     if (!lang) {
       lang = 'TH'
     }
-    const url = `https://api.eatmeatsfest.com/api/API?Language=${lang}`
+    const url = `https://api.eatmeatsfest.com/api/API?ShopName=${shopName}&Language=${lang}`
     const res = await axios.get(url)
+    console.log(res);
+
     this.setState({
-      shopList: res.data.FOOD,
+      shopDetail: res.data,
     })
   }
 
   render () {
     return (
       <Fragment>
-        <section className={'section'}>
-          <div className={'columns'}>
-            <div className={'column'}>
-              <div className={'columns is-multiline'}>
-                {this.state.shopList.map((food, index) => (
-                  <CardFood key={index} food={food}/>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
+        {this.state.shopDetail && <ShopDetail shopDetail={this.state.shopDetail}/>}
       </Fragment>
     )
   }
