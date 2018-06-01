@@ -33,9 +33,9 @@ class EventInfo extends React.Component {
         </section>
         <section className={'section is-gray margin-top'}>
           <div className={'container has-text-centered'}>
-            <p className={'title is-3 is-spaced'}>Event Info</p>
+            <p className={'title is-2 is-spaced'}>Event Info</p>
             <p dangerouslySetInnerHTML={{__html: this.state.eventInfo}}
-               className={'subtitle is-5 line-height'}/>
+               className={'subtitle is-4 line-height'}/>
           </div>
         </section>
         <section className={'section'} style={{ backgroundColor:'gray' }}>

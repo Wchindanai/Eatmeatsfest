@@ -17,10 +17,10 @@ const CardFood = ({ food }) => (
       <CardContent className="card-content">
         <div className="media">
           <div className="media-content">
-            <p className="title is-4">
+            <p className="title is-3">
               { food.SHOP_NAME }
             </p>
-            <p className="subtitle is-6">
+            <p className="subtitle is-5">
               { food.FOOD_NAME }
             </p>
           </div>

@@ -50,6 +50,14 @@ class ShopList extends React.Component {
   }
 
   render () {
+    if (!this.state.foodList.length) {
+      return (
+        <div className="spinner">
+          <div className="double-bounce1"></div>
+          <div className="double-bounce2"></div>
+        </div>
+      )
+    }
     return (
       <Fragment>
         <section className={'section'}>
