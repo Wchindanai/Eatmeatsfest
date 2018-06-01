@@ -18,6 +18,10 @@ const Banner = styled.div`
   width: 100%;
   background-size: cover;
 `
+const ButtonGroup = styled.div`
+  padding-top: 15px;
+  padding-right: 25px;
+`;
 
 class App extends React.Component {
   constructor (props) {
@@ -56,7 +60,7 @@ class App extends React.Component {
       <Router>
         <div>
           <Banner className={'image'}>
-            <div className="buttons has-addons is-right" style={{paddingTop: '15px'}}>
+            <ButtonGroup className="buttons has-addons is-right">
               <div className={`button ${this.state.language === 'TH' ? 'is-danger is-selected' : ''}`} onClick={() => this.changeLanguage("TH")}>
                 <i className={'flag-icon flag-icon-th'}/>
                 <span>&nbsp; TH</span>
@@ -69,7 +73,7 @@ class App extends React.Component {
                 <i className={'flag-icon flag-icon-us'}/>
                 <span>&nbsp; EN</span>
               </div>
-            </div>
+            </ButtonGroup>
           </Banner>
           <nav className={'navbar is-black'}>
             <div className="navbar-brand">
