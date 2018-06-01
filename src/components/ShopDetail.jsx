@@ -22,6 +22,13 @@ const ShopDetail = ({shopDetail}) => (
           <br/>
           {
             shopDetail.SHOP_IMAGE.map((img, index) => {
+              if (shopDetail.SHOP_NAME === "SAGAMI" ) {
+                return (
+                  <Image className={'image is-300'}>
+                    <img src={img.IMAGE_PATH}/>
+                  </Image>
+                );
+              }
               return (
                 <Image className={'image is-256'}>
                   <img src={img.IMAGE_PATH}/>

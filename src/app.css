@@ -42,6 +42,10 @@
   width: 285px;
 }
 
+.is-300 {
+  width: 300px;
+}
+
 .contact-banner {
   width:100%;
   padding:1px 0 36% 0;
