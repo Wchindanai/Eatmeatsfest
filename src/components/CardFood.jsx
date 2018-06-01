@@ -6,12 +6,16 @@ const CardContent = styled.div`
   height: 120px;
 `;
 
+const ImageCenter = styled.img`
+  object-fit: contain;
+`;
+
 const CardFood = ({ food }) => (
   <Link to={`/shop_detail?shop=${food.SHOP_KEY}`}  className="column is-half">
     <div className={'card'}>
       <div className="card-image">
         <figure className={'image is-4by3'}>
-          <img src={ food.IMAGE_PATH } alt=""/>
+          <ImageCenter src={ food.IMAGE_PATH } alt={food.SHOP_KEY}/>
         </figure>
       </div>
       <CardContent className="card-content">
