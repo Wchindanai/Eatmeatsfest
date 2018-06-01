@@ -7,7 +7,6 @@ const CardContent = styled.div`
 `;
 
 const ImageCenter = styled.img`
-  object-fit: contain;
 `;
 
 const CardFood = ({ food }) => (
