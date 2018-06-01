@@ -6,7 +6,7 @@ import  * as data from './src/mock';
 export default {
   siteRoot: 'https://www.eatmeatsfest.com',
   getSiteData: () => ({
-    title: 'Eat Meats Fest',
+    title: 'EAT MEATS FEST',
     metaDescription: 'Eat Meats Festival'
   }),
   getRoutes: async () => {

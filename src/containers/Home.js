@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import { withRouteData } from 'react-static'
 import styled from 'styled-components'
 import axios from 'axios'
@@ -19,20 +19,40 @@ class Home extends React.Component {
       isLoading: true,
       eventInfo: '',
       foodList: [],
+      dessertList:[],
+      drinkList:[],
     }
   }
 
   async componentDidMount () {
-    let lang = window.localStorage.getItem('language');
+
+    let lang = localStorage.getItem('language')
     if (!lang) {
-      lang = "TH";
+      lang = 'TH'
     }
     const url = `https://api.eatmeatsfest.com/api/API?Language=${lang}`
-    const data = await axios.get(url)
-    const { FOOD, EVENT_INFO } = data.data;
+    const res = await axios.get(url)
+    const foodList = res.data.FOOD.filter((item) => {
+      if (item.GROUP_TYPE === "FOOD") {
+        return item;
+      }
+    });
+    const dessertList = res.data.FOOD.filter((item) => {
+      if (item.GROUP_TYPE === "DESSERT") {
+        return item;
+      }
+    });
+    const drinkList = res.data.FOOD.filter((item) => {
+      if (item.GROUP_TYPE === "DRINK") {
+        return item;
+      }
+    });
+    const { EVENT_INFO } = res.data;
     this.setState({
-      foodList: FOOD,
-      eventInfo: EVENT_INFO
+      eventInfo: EVENT_INFO,
+      foodList,
+      dessertList,
+      drinkList,
     })
   }
 
@@ -40,9 +60,40 @@ class Home extends React.Component {
     const {eventInfo} = this.state;
     let listFoodCard;
     if (this.state.foodList.length) {
-      listFoodCard = this.state.foodList.map((food, index) => (
-        <CardFood key={index} food={food} />
-      ));
+      listFoodCard = (
+        <div>
+          <div className={'title'}>Highlight Menu</div>
+          <hr/>
+          <div className={'columns is-multiline'}>
+            {this.state.foodList.map((food, index) => (
+              <CardFood key={index} food={food}/>
+            ))}
+          </div>
+          { this.state.dessertList.length ?
+            <Fragment>
+              <div className={'title'}>DESSERT</div>
+              <hr/>
+            </Fragment> : ""
+          }
+
+          <div className={'columns is-multiline'}>
+            {this.state.dessertList.map((food, index) => (
+              <CardFood key={index} food={food}/>
+            ))}
+          </div>
+          { this.state.drinkList.length ?
+          <Fragment>
+            <div className={'title'}>DRINK</div>
+            <hr/>
+          </Fragment> : ""}
+
+          <div className={'columns is-multiline'}>
+            {this.state.drinkList.map((food, index) => (
+              <CardFood key={index} food={food}/>
+            ))}
+          </div>
+        </div>
+      );
     }
     return (
       <div>
@@ -58,10 +109,8 @@ class Home extends React.Component {
         </section>
         <section className={'section'}>
           <div className={'columns'}>
-            <div className={'column is-8 '}>
-              <div className={'columns is-multiline'}>
+            <div className={'column is-8'}>
                 { listFoodCard }
-              </div>
             </div>
             <div className={'column is-4'}>
               <FacebookProvider appId="122099135013153">

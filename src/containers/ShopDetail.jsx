@@ -22,8 +22,6 @@ class ShopList extends React.Component {
     }
     const url = `https://api.eatmeatsfest.com/api/API?ShopName=${shopName}&Language=${lang}`
     const res = await axios.get(url)
-    console.log(res);
-
     this.setState({
       shopDetail: res.data,
     })

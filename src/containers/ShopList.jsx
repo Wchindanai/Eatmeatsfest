@@ -9,21 +9,43 @@ class ShopList extends React.Component {
     this.state = {
       shopDetail: null,
       shopList: [],
+      foodList: [],
+      dessertList:[],
+      drinkList:[],
       mode: 'SHOP_LIST',
     }
   }
 
   async componentDidMount () {
-    const {search} = this.props.location
-    const shopName = search.split('=')[1]
     let lang = localStorage.getItem('language')
     if (!lang) {
       lang = 'TH'
     }
     const url = `https://api.eatmeatsfest.com/api/API?Language=${lang}`
     const res = await axios.get(url)
+    console.log(res);
+    const foodList = res.data.FOOD.filter((item) => {
+      console.log(item);
+      if (item.GROUP_TYPE === "FOOD") {
+        return item;
+      }
+    });
+    const dessertList = res.data.FOOD.filter((item) => {
+      console.log(item);
+      if (item.GROUP_TYPE === "DESSERT") {
+        return item;
+      }
+    });
+    const drinkList = res.data.FOOD.filter((item) => {
+      console.log(item);
+      if (item.GROUP_TYPE === "DRINK") {
+        return item;
+      }
+    });
     this.setState({
-      shopList: res.data.FOOD,
+      foodList,
+      dessertList,
+      drinkList,
     })
   }
 
@@ -33,8 +55,33 @@ class ShopList extends React.Component {
         <section className={'section'}>
           <div className={'columns'}>
             <div className={'column'}>
+              <div className={'title is-2'}>Highlight Menu</div>
+              <hr/>
               <div className={'columns is-multiline'}>
-                {this.state.shopList.map((food, index) => (
+                {this.state.foodList.map((food, index) => (
+                  <CardFood key={index} food={food}/>
+                ))}
+              </div>
+              { this.state.dessertList.length ?
+                <Fragment>
+                  <div className={'title is-2'}>DESSERT</div>
+                  <hr/>
+                </Fragment> : ""
+              }
+
+              <div className={'columns is-multiline'}>
+                {this.state.dessertList.map((food, index) => (
+                  <CardFood key={index} food={food}/>
+                ))}
+              </div>
+              { this.state.drinkList.length ?
+                <Fragment>
+                  <div className={'title is-2'}>DRINK</div>
+                  <hr/>
+                </Fragment> : ""}
+
+              <div className={'columns is-multiline'}>
+                {this.state.drinkList.map((food, index) => (
                   <CardFood key={index} food={food}/>
                 ))}
               </div>
