@@ -64,7 +64,7 @@ class ShopList extends React.Component {
           <div className={'columns'}>
             <div className={'column'}>
               <div className={'title is-2'}>Highlight Menu</div>
-              <hr/>
+              <hr className={'background-black'}/>
               <div className={'columns is-multiline'}>
                 {this.state.foodList.map((food, index) => (
                   <CardFood key={index} food={food}/>
@@ -73,7 +73,7 @@ class ShopList extends React.Component {
               { this.state.dessertList.length ?
                 <Fragment>
                   <div className={'title is-2'}>DESSERT</div>
-                  <hr/>
+                  <hr className={'background-black'}/>
                 </Fragment> : ""
               }
 
@@ -85,7 +85,7 @@ class ShopList extends React.Component {
               { this.state.drinkList.length ?
                 <Fragment>
                   <div className={'title is-2'}>DRINK</div>
-                  <hr/>
+                  <hr className={'background-black'}/>
                 </Fragment> : ""}
 
               <div className={'columns is-multiline'}>

@@ -30,6 +30,10 @@
   }
 }
 
+.background-black{
+  background-color: black;
+}
+
 .h-500 {
   height: 500px;
 }

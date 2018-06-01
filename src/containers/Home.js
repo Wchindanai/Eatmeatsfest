@@ -14,13 +14,13 @@ export const KeyArt = styled.div`
 
 class Home extends React.Component {
   constructor (props) {
-    super(props);
+    super(props)
     this.state = {
       isLoading: true,
       eventInfo: '',
       foodList: [],
-      dessertList:[],
-      drinkList:[],
+      dessertList: [],
+      drinkList: [],
     }
   }
 
@@ -33,21 +33,21 @@ class Home extends React.Component {
     const url = `https://api.eatmeatsfest.com/api/API?Language=${lang}`
     const res = await axios.get(url)
     const foodList = res.data.FOOD.filter((item) => {
-      if (item.GROUP_TYPE === "FOOD") {
-        return item;
+      if (item.GROUP_TYPE === 'FOOD') {
+        return item
       }
-    });
+    })
     const dessertList = res.data.FOOD.filter((item) => {
-      if (item.GROUP_TYPE === "DESSERT") {
-        return item;
+      if (item.GROUP_TYPE === 'DESSERT') {
+        return item
       }
-    });
+    })
     const drinkList = res.data.FOOD.filter((item) => {
-      if (item.GROUP_TYPE === "DRINK") {
-        return item;
+      if (item.GROUP_TYPE === 'DRINK') {
+        return item
       }
-    });
-    const { EVENT_INFO } = res.data;
+    })
+    const {EVENT_INFO} = res.data
     this.setState({
       eventInfo: EVENT_INFO,
       foodList,
@@ -57,23 +57,23 @@ class Home extends React.Component {
   }
 
   render () {
-    const {eventInfo} = this.state;
-    let listFoodCard;
+    const {eventInfo} = this.state
+    let listFoodCard
     if (this.state.foodList.length) {
       listFoodCard = (
         <div>
           <div className={'title'}>Highlight Menu</div>
-          <hr/>
+          <hr className={'background-black'}/>
           <div className={'columns is-multiline'}>
             {this.state.foodList.map((food, index) => (
               <CardFood key={index} food={food}/>
             ))}
           </div>
-          { this.state.dessertList.length ?
+          {this.state.dessertList.length ?
             <Fragment>
               <div className={'title'}>DESSERT</div>
-              <hr/>
-            </Fragment> : ""
+              <hr className={'background-black'}/>
+            </Fragment> : ''
           }
 
           <div className={'columns is-multiline'}>
@@ -81,11 +81,11 @@ class Home extends React.Component {
               <CardFood key={index} food={food}/>
             ))}
           </div>
-          { this.state.drinkList.length ?
-          <Fragment>
-            <div className={'title'}>DRINK</div>
-            <hr/>
-          </Fragment> : ""}
+          {this.state.drinkList.length ?
+            <Fragment>
+              <div className={'title'}>DRINK</div>
+              <hr className={'background-black'}/>
+            </Fragment> : ''}
 
           <div className={'columns is-multiline'}>
             {this.state.drinkList.map((food, index) => (
@@ -93,7 +93,7 @@ class Home extends React.Component {
             ))}
           </div>
         </div>
-      );
+      )
     }
     return (
       <div>
@@ -110,19 +110,20 @@ class Home extends React.Component {
         <section className={'section'}>
           <div className={'columns'}>
             <div className={'column is-8'}>
-                { listFoodCard }
+              {listFoodCard}
             </div>
             <div className={'column is-4'}>
               <FacebookProvider appId="122099135013153">
-                <Page href="https://www.facebook.com/EatMeatsFest" tabs="timeline" height={'850px'} width={'500px'} />
+                <Page href="https://www.facebook.com/EatMeatsFest"
+                      tabs="timeline" height={'850px'} width={'500px'}/>
               </FacebookProvider>
             </div>
           </div>
         </section>
-        <section className={'section'} style={{ backgroundColor:'gray' }}>
+        <section className={'section'} style={{backgroundColor: 'gray'}}>
           <div className={'has-text-centered'}>
             <div className="container">
-              <p className={'title'} style={{ color: 'white'}}>Coming Soon</p>
+              <p className={'title'} style={{color: 'white'}}>Coming Soon</p>
             </div>
           </div>
         </section>
@@ -131,4 +132,4 @@ class Home extends React.Component {
   }
 }
 
-export default withRouteData(Home);
+export default withRouteData(Home)
