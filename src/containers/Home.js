@@ -12,6 +12,7 @@ export const KeyArt = styled.div`
   width: 100%;
 `
 
+
 class Home extends React.Component {
   constructor (props) {
     super(props)
@@ -91,6 +92,7 @@ class Home extends React.Component {
             {this.state.drinkList.map((food, index) => (
               <CardFood key={index} food={food}/>
             ))}
+            <hr className={'background-black'}/>
           </div>
         </div>
       )
@@ -120,11 +122,9 @@ class Home extends React.Component {
             </div>
           </div>
         </section>
-        <section className={'section'} style={{backgroundColor: 'gray'}}>
+        <section className={'section'}>
           <div className={'has-text-centered'}>
-            <div className="container">
-              <p className={'title'} style={{color: 'white'}}>Coming Soon</p>
-            </div>
+            <img src="/img/floor-plan.jpg" alt=""/>
           </div>
         </section>
       </div>

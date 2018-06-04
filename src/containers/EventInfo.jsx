@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { withRouteData } from 'react-static';
 import ComingSoon from '../components/ComingSoon'
-import { KeyArt } from './Home'
+import { FloorPlan, KeyArt } from './Home'
 import  axios from 'axios'
 
 class EventInfo extends React.Component {
@@ -38,11 +38,9 @@ class EventInfo extends React.Component {
                className={'subtitle is-4 line-height'}/>
           </div>
         </section>
-        <section className={'section'} style={{ backgroundColor:'gray' }}>
+        <section className={'section'}>
           <div className={'has-text-centered'}>
-            <div className="container">
-              <p className={'title'} style={{ color: 'white'}}>Coming Soon</p>
-            </div>
+            <img src="/img/floor-plan.jpg" alt=""/>
           </div>
         </section>
       </Fragment>
